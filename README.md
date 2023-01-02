@@ -1,74 +1,68 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+  ## DoFLEX
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+   영화정보 api를 활용하여 장르별로 영화 정보를 소개하는 웹페이지입니다.
+   
+   -------
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
 
-### `npm start`
+   Demo Link : https://www.notion.so/DoFLEX-6a3c1fef99384115af6b3e6a9dc3d915#82bc134b95a046b39402c49ab46a94d4
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   <img width="1728" alt="Screenshot 2022-12-27 at 4 56 49 PM" src="https://user-images.githubusercontent.com/76845650/210194666-de133068-0937-48e1-a742-8bdf492037cb.png">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+   #### 디렉터리 구조
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+         ┣📦src
+         ┣ 📂Atom
+         ┃ ┗ 📜NavList.js
+         ┣ 📂components
+         ┃ ┣ 📜Loading.js
+         ┃ ┣ 📜Loading.module.css
+         ┃ ┣ 📜MovieDetail.js
+         ┃ ┣ 📜MovieDetail.module.css
+         ┃ ┣ 📜Navbar.js
+         ┃ ┣ 📜Navbar.module.css
+         ┃ ┣ 📜Slide.js
+         ┃ ┗ 📜Slide.module.css
+         ┣ 📂render
+         ┃ ┣ 📜MovieGroup.js
+         ┃ ┣ 📜MovieGroup.module.css
+         ┃ ┣ 📜MovieSearch.js
+         ┃ ┣ 📜MovieSearch.module.css
+         ┃ ┣ 📜MovieSlide.js
+         ┃ ┗ 📜MovieSlide.module.css
+         ┣ 📂routes
+         ┃ ┣ 📜Detail.js
+         ┃ ┣ 📜Detail.module.css
+         ┃ ┣ 📜Group.js
+         ┃ ┣ 📜Group.module.css
+         ┃ ┣ 📜Home.js
+         ┃ ┣ 📜Home.module.css
+         ┃ ┣ 📜Search.js
+         ┃ ┗ 📜Search.module.css
+         ┣ 📜App.js
+         ┣ 📜index.js
+         ┗ 📜styles.css
+         ┣ 📜.gitignore
+         ┣ 📜README.md
+         ┣ 📜package-lock.json
+         ┗ 📜package.json
 
-### `npm run build`
+  #### Enviorment
+  * 1.Git
+  * 2.NodeJS / NPM
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  #### Technologies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# React-movie-app
->>>>>>> f55ffb4da055047aa28b9019debf9875368ce861
+  * react
+  * react-dom
+  * react-router-dom
+  * react-scripts
+  
+  React를 학습하면서 api를 활용하여 만들어본 영화정보 웹페이지입니다.
+  
+  메인 화면은 Netflix와 비슷하게 구현하고자 하였습니다.
+  
+  해당 영화 포스터를 클릭하면 평점/런타임/장르/줄거리 등 해당 영화의 상세 정보를 확인할 수 있습니다.
